@@ -66,13 +66,13 @@ class StatusScreen extends StatelessWidget {
                     leading: CircleAvatar(
                       radius: 30,
                       backgroundImage: NetworkImage(
-                          "https://pbs.twimg.com/media/EClDvMXU4AAw_lt?format=jpg&name=medium"),
+                          "https://scontent.fktm1-2.fna.fbcdn.net/v/t1.0-9/126095942_181816950215575_2205416068452563406_o.jpg?_nc_cat=103&ccb=2&_nc_sid=09cbfe&_nc_ohc=tFF8LUUtY0IAX_iQ2Pv&_nc_ht=scontent.fktm1-2.fna&oh=291427c9e76fc36423f31142d5d44dd9&oe=6033D0D3"),
                     ),
                     title: Text(
-                      "Pawan Kumar",
+                      "Saroj Yadav",
                       style: TextStyle(fontWeight: FontWeight.bold),
                     ),
-                    subtitle: Text("Today, 20:16 PM"),
+                    subtitle: Text("Today, 2:16 PM"),
                     onTap: () => Navigator.push(
                         context,
                         MaterialPageRoute(

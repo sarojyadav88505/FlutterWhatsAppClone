@@ -37,13 +37,13 @@ class _WhatsAppHomeState extends State<WhatsAppHome>
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("WhatsApp"),
+        title: Text("Whatsup"),
         elevation: 0.7,
         bottom: TabBar(
           controller: _tabController,
           indicatorColor: Colors.white,
           tabs: <Widget>[
-            Tab(icon: Icon(Icons.camera_alt)),
+            Tab(icon: Icon(Icons.camera)),
             Tab(text: "CHATS"),
             Tab(
               text: "STATUS",
